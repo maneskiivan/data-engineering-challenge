@@ -60,7 +60,7 @@ def main():
         axis=1
     )
 
-    print(users_df[['uuid', 'nearest_airport']].head())
+    print(users_df[['uuid', 'nearest_airport']].to_markdown())
 
 
 if __name__ == '__main__':
