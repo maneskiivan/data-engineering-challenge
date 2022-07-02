@@ -13,7 +13,7 @@ def get_files(path: str) -> list:
 
 def dist(lat1, long1, lat2, long2):
     """
-    Replicating the same formula as mentioned in Wiki
+    Replicating the Haversine Distance formula
     """
     # convert decimal degrees to radians
     lat1, long1, lat2, long2 = map(radians, [lat1, long1, lat2, long2])
